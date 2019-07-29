@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Color Detect</string>
+    <string name="app_form">Form Data</string>
+    <string name="app_data">Data Pasien</string>
+
+    <string name="action_lihat_data">Lihat Data</string>
+    <string name="action_about">About Us</string>
+
+    <string name="button_capture">Capture</string>
+    <string name="button_save">Save</string>
+
+    <string name="input_hari_tanggal">Hari / Tanggal dikaji</string>
+    <string name="input_nama_perawat">Nama Perawat</string>
+    <string name="input_no_responden">No. Responden</string>
+    <string name="input_umur">Umur</string>
+    <string name="input_jenis_kelamin">Jenis Kelamin</string>
+    <string name="input_luas">Luas (cm2)</string>
+    <string name="input_nekrosis">Nekrosis (cm) Hitam</string>
+    <string name="input_slough">Slough (cm) Kuning</string>
+    <string name="input_granulasi">Granulasi (cm) Merah</string>
+    <string name="input_epitelisasi">Epitelisasi (cm) Pink</string>
+
+    <string name="txt_foto_luka">Foto Luka</string>
+    <string name="txt_tanggal">Ambil tanggal</string>
+    <string name="txt_jenis_kelamin">Jenis Kelamin</string>
+    <string name="txt_grade_luka">Grade Luka</string>
+    <string name="txt_luka_sekitar_kulit">Luka sekitar kulit</string>
+    <string name="txt_jenis_eksudat">Jenis Eksudat</string>
+    <string name="txt_jumlah">Jumlah</string>
+
+    <string-array name="input_jenis_kelamin">
+        <item>Pilihan</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+    <string-array name="input_grade_luka">
+        <item>Pilihan</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="input_luka_sekitar_kulit">
+        <item>Pilihan</item>
+        <item>Sehat / Utuh</item>
+        <item>Fregile</item>
+        <item>Kering</item>
+        <item>Bersisik</item>
+        <item>Erythema</item>
+        <item>Edema</item>
+        <item>Maserasi</item>
+    </string-array>
+    <string-array name="input_jenis_eksudat">
+        <item>Pilihan</item>
+        <item>Tidak ada</item>
+        <item>Darah</item>
+        <item>Darah dan serousa</item>
+        <item>Serousa</item>
+        <item>Perulen</item>
+    </string-array>
+    <string-array name="input_jumlah">
+        <item>Pilihan</item>
+        <item>Tidak ada</item>
+        <item>Sedikit</item>
+        <item>Sedang</item>
+        <item>Banyak</item>
+        <item>Jumlah meningkat</item>
+        <item>Jumlah menurun</item>
+    </string-array>
+    
+</resources>

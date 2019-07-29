@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/_photo_data"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/_no_responden_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/_photo_data"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"
+        android:text="No Responden"/>
+
+    <TextView
+        android:id="@+id/_nama_perawat_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/_photo_data"
+        android:layout_below="@id/_no_responden_data"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:text="Nama Perawat"/>
+
+</RelativeLayout>
